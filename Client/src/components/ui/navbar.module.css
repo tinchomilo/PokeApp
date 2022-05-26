@@ -1,0 +1,17 @@
+.headerContainer {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.containerNav {
+    width: 100%;
+    display: flex;
+}
+
+.navMain {
+    width: inherit;
+    height: 50px;
+}

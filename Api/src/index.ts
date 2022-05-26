@@ -1,5 +1,5 @@
 import express from 'express'
-import helmet from 'helmet'
+import cors from 'cors'
 import morgan from 'morgan'
 import dontenv from 'dotenv'
 import routes from './routes/routes'
@@ -13,7 +13,7 @@ app.use( morgan( 'dev' ) )
 // Parseo del body
 app.use( express.json() )
 
-app.use( helmet() )
+app.use( cors() )
 
 app.use( routes )
 

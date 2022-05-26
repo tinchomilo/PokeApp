@@ -1,0 +1,8 @@
+.containerSidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
